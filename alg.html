@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="omori, омори, игра, прохождение, персонажи, вики, wikia, Обри, Кел, Омори, Хиро, Бэйзил, Санни, Мари, Мэри, разработчики, локации">
+    <meta name="description" content="Омори: локации, персонажи, разработчики, советы по прохождению">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://static.wikia.nocookie.net/omori/images/a/a0/SPROUT_MOLE.png/revision/latest?cb=20220529000142">
+    <title>OmoWiki - Задача</title>
+</head>
+<body>
+    <table class="nav_table" id="start">
+        <tr>
+            <td><a href="index.html" class="nav_link">Главная</a></td>
+            <td><a href="locations.html" class="nav_link">Локации</a></td>
+            <td><a href="characters.html" class="nav_link">Персонажи</a></td>
+            <td><a href="developers.html" class="nav_link">Разработчики</a></td>
+            <td><a href="alg.html" class="nav_current">Алг. задача</a></td>
+            <td><a href="easter_eggs.html" class="nav_link">Пасхалки</a></td>
+            <td><a href="mod.html" class="nav_link">Разработка мода</a></td>
+        </tr>
+    </table>
+    <div class="container">
+        <h1 class="head">Задача: можно ли заполнить ёмкость(и) объёмом M?</h1>
+        <div>
+            <table class="table">
+                <tr>
+                    <td>
+                        <label for="A" class="main_text">A — ребро куба (единицы):<br></label>
+                        <input id="A" type="text" placeholder="например, 2" />
+                    </td>
+                    <td>
+                        <label for="H" class="main_text">H — высота цилиндра (единицы):</label>
+                        <input id="H" type="text" placeholder="например, 3" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="R" class="main_text">R — радиус основания цилиндра (единицы):</label>
+                        <input id="R" type="text" placeholder="например, 1.5" />
+                    </td>
+                    <td>
+                        <label for="M" class="main_text">M — объём жидкости (единицы³):</label>
+                        <input id="M" type="text" placeholder="например, 20" />
+                    </td>
+                </tr>
+            </table>
+            <button id="checkBtn" type="button" class="check_button">Проверить</button>
+        </div>
+        <div id="output" class="container"></div>
+    </div>
+    <a href="#start"><img src="css/images/Whirlpool.webp"></a>
+    <p class="side_text"><b>(К началу страницы)</b></p>
+    <script src="js/alg.js"></script>
+</body>
+</html>

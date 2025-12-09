@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="omori, омори, игра, прохождение, персонажи, вики, wikia, Обри, Кел, Омори, Хиро, Бэйзил, Санни, Мари, Мэри, разработчики, локации">
+    <meta name="description" content="Омори: локации, персонажи, разработчики, советы по прохождению">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://static.wikia.nocookie.net/omori/images/a/a0/SPROUT_MOLE.png/revision/latest?cb=20220529000142">
+    <title>OmoWiki - Мод</title>
+</head>
+<body>
+    <table class="nav_table" id="start">
+        <tr>
+            <td><a href="index.html" class="nav_link">Главная</a></td>
+            <td><a href="locations.html" class="nav_link">Локации</a></td>
+            <td><a href="characters.html" class="nav_link">Персонажи</a></td>
+            <td><a href="developers.html" class="nav_link">Разработчики</a></td>
+            <td><a href="alg.html" class="nav_link">Алг. задача</a></td>
+            <td><a href="easter_eggs.html" class="nav_link">Пасхалки</a></td>
+            <td><a href="mod.html" class="nav_current">Разработка мода</a></td>
+        </tr>
+    </table>
+    <div class="container">
+        <h1 class="head">Мод "Rainy day"</h1>
+        <p class="main_text">Наша команда разрабатывает мод под названием "Rainy day". Эта анкета - ваша возможность присоединиться к нашей команде разработки!</p>
+        <form action="mailto: adsteshova@edu.hse.ru" target="_blank" id="data" name="data">
+            <div class="personal-info">
+                <h3 class="head">Личная информация</h4><br>
+                <label for="name" class="main_text">Имя (или псевдоним)</label><br>
+                <input type="text" id="name" name="name" value="Omori" required><br>
+
+                <label for="surname" class="main_text">Фамилия (или псевдоним)</label><br>
+                <input type="text" id="surname" name="surname" value="Li" required><br>
+
+                <label for="age" class="main_text">Возраст</label><br>
+                <input type="number" id="age" name="age" value="33" min="18" max="100" required><br>
+
+                <label for="profession" class="main_text">Должность, которую рассматриваете</label><br>
+                <select name="profession" id="profession">
+                    <option value="programmer" selected>Программист</option>
+                    <option value="artist">Художник (по артам)</option>
+                    <option value="spriter">Художник (по спрайтам)</option>
+                    <option value="musician">Композитор</option>
+                    <option value="writer">Сценарист</option>
+                    <option value="translator">Локализатор</option>
+                    <option value="tester">Тестировщик</option>
+                </select><br>
+            </div>
+
+            <div class="working-exp">
+                <h3 class="subhead">Опыт работы и скиллы</h3>
+                
+                <label class="main_text">
+                    <input type="checkbox" name="participation">Участвовали в предыдущих наших проектах
+                </label><br>
+
+                <label for="experience" class="main_text">Опыт (в проектах)</label><br>
+                <input type="number" name="experience" id="experience" value="0"><br>
+
+                <label for="prev-projects" class="main_text">При наличии опыта приложите ссылку на портфолио</label><br>
+                <textarea name="prev-projects" id="prev-projects">Отсутствует</textarea><br>
+
+                <label for="education-level" class="main_text">Уровень образования по указанному профилю</label><br>
+                <select name="education-level" id="education-level">
+                    <option value="none">Нет специального образования</option>
+                    <option value="cert-courses">Специализированные курсы</option>
+                    <option value="secondary-special">Среднее специальное</option>
+                    <option value="bachelor" selected>Бакалавр</option>
+                    <option value="master">Магистр</option>
+                    <option value="specialist">Специалист</option>
+                </select><br>
+
+                <label class="main_text">Уровень английского
+                    <hr class="separator">
+                    <input type="radio" name="english-level" value="a1" class="less-margin">A1&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="english-level" value="a2" class="less-margin">A2&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="english-level" value="b1" class="less-margin">B1&nbsp;&nbsp;&nbsp;
+                    <br>
+                    <input type="radio" name="english-level" value="b2" checked>B2&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="english-level" value="c1">C1&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="english-level" value="c2">C2&nbsp;&nbsp;&nbsp;
+                </label><br>
+
+                <label for="other_languages" class="main_text">Владение другими языками</label><br>
+                <textarea name="other_languages" id="other_languages">Китайски, HSK1</textarea><br>
+
+                <label for="extra" class="main_text">В целом о вас</label><br>
+                <textarea name="extra" id="extra">Клево играю на гитаре</textarea><br>
+            </div>
+
+            <div class="contact-info">
+                <h3 class="subhead">Контактные данные</h3>
+
+                <label for="email" class="main_text">Электронная почта</label><br>
+                <input type="email" name="email" id="email" value="omori@gmail.com" required><br>
+
+                <label for="phone-number" class="main_text">Номер телефона</label><br>
+                <input type="tel" name="phone-number" id="phone-number" value="+7-800-555-35-35" required><br>
+
+                <label for="messenger" class="main_text">Удобный способ связи</label><br>
+                <select name="messenger" id="messenger">
+                    <option value="tg">Telegram</option>
+                    <option value="vk">ВКонтакте</option>
+                    <option value="number">Телефон</option>
+                    <option value="email-msg">Почта</option>
+                </select><br>
+
+                <label for="time" class="main_text">В какое время мы можем с вами связаться?</label><br>
+                <input type="time" name="time" id="time" value="12:00"><br>
+            </div>
+        </form>
+    </div>
+    <a href="#start"><img src="css/images/Whirlpool.webp"></a>
+    <p class="side_text"><b>(К началу страницы)</b></p>
+</body>
+</html>

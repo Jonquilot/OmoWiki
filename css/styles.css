@@ -1,0 +1,254 @@
+body {
+    display: flex;
+    font-family: "Comfortaa", sans-serif;
+    background-image: url(images/body_background.jpg);
+    background-size: auto;
+    align-items: center;
+    min-height: 800px;
+    flex-direction: column;
+    padding: 25px 0;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: aquamarine;
+    height: auto;
+    width: 70%;
+    text-align: justify;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.side_text {
+    color: rgb(11, 221, 151);
+    font-size: 16px;
+}
+
+.main_text, li {
+    font-size: 17px;
+    color: blueviolet;
+    line-height: 200%;
+}
+
+.deco_table {
+    background-color: transparent;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+}
+
+.characters_table {
+    border: 3px solid rgb(17, 94, 68);
+    background-image:url(https://res.cloudinary.com/gimmersta-wallpaper/image/upload/c_fill,f_auto,fl_progressive,q_auto,h_500/v1716221842/articles/WA0079NE40W_product.jpg);
+    border-radius: 5px;
+    max-width: 900;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.characters_table td, .characters_table th {
+    border: 3px solid rgb(17, 94, 68);
+}
+
+td, th {
+    padding: 10px;
+}
+
+.head {
+    color: blueviolet;
+    line-height: 100%;
+}
+
+.decor {
+    margin: 10px;
+    max-width: 900px;
+}
+
+.subhead {
+    color: blueviolet;
+    line-height: 100%;
+}
+
+.quote_container {
+    color:blueviolet;
+    background-color: rgb(97, 148, 131);
+    height: auto;
+    width: 40%;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav_table {
+    box-align: center;
+    background-color: rgb(146, 66, 220);
+    border-radius: 10px;
+    margin: 10px
+}
+
+.local_nav_container {
+    background-color: rgb(174, 107, 236);
+    height: 40px;
+    width: 570px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0;
+}
+
+.local_nav_link {
+    color:rgb(111, 200, 170);
+    font-size: 15px;
+    line-height: 110%;
+    text-decoration: none;
+}
+
+.nav_link {
+    color:rgb(38, 202, 147);
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.nav_current {
+    color:rgb(84, 122, 109);
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 120%;
+    text-decoration: underline;
+}
+
+.local_nav_link:hover {
+    color: rgb(48, 236, 173);
+    text-decoration: underline;
+}
+
+.nav_link:hover {
+    color: rgb(150, 244, 213);
+    text-decoration: underline;
+}
+
+.character_image {
+    width: 250px;
+    height: 250px;
+}
+
+.passport {
+    background-image: url(images/passport.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    max-width: 900px;
+    height: 750px;
+    position: relative;
+    margin: 5px;
+}
+
+#issuing {
+    position: absolute;
+    top: 8%;
+    left: 32%;
+}
+
+#issuing-date {
+    position: absolute;
+    top: 19%;
+    left: 34%;
+    letter-spacing: 0;
+} 
+
+#unit {
+    position: absolute;
+    top: 19%;
+    left: 58%;
+}
+
+#signed {
+    height: 100px;
+    position: absolute;
+    top: 28%;
+    left: 28%;
+}
+
+#signature {
+    height: 55px;
+    position: absolute;
+    top: 33%;
+    left: 60%;
+}   
+
+#surname {
+    position: absolute;
+    top: 53%;
+    left: 53%;
+}
+
+#name {
+    position: absolute;
+    top: 62%;
+    left: 55%;
+}
+
+#patronymic {
+    position: absolute;
+    top: 66%;
+    left: 51%;
+}
+
+#gender {
+    position: absolute;
+    top: 70%;
+    left: 43%;
+}
+
+#birthday {
+    position: absolute;
+    top: 70%;
+    left: 57%;
+    letter-spacing: 0;
+}
+
+#city {
+    position: absolute;
+    top: 74%;
+    left: 51%;
+}
+
+#area {
+    position: absolute;
+    top: 78%;
+    left: 47%;
+}
+
+#passport-photo {
+    position: absolute;
+    top: 62%;
+    left: 23%;
+    height: 182px;
+}
+
+.check_button {
+    box-align: center;
+    background-color: blueviolet;
+    color: aquamarine;
+    margin-left: 10cm;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+}
+
+.check_button:hover {
+    background-color: rgb(176, 118, 231);
+    color: rgb(203, 246, 231);
+    cursor: grab;
+}
+
+input {
+    margin-left: auto;
+}
